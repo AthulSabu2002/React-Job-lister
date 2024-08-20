@@ -1,9 +1,11 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 
+// eslint-disable-next-line react/prop-types
 const AddJobPage = ({ addJobSubmit }) => {
   
     const [title, setTitle] = useState('');
